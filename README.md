@@ -1,5 +1,7 @@
 # examples_SQLITE3_with_Python_C_C-
 
+Here you will find simples examples of  sqlit3 (SQLITE 3.0) written in Python, C and C++
+
 sqlite3 (SQLite 3.0) standalone command-line shell program provided in SQLite's distribution. It can be used to create a database, define tables, insert and change rows, run queries and manage an SQLite database file. It also serves as an example for writing applications that use the SQLite library.
 
 SQLite is a database engine written in the C programming language. It is not a standalone app; rather, it is a library that software developers embed in their apps. As such, it belongs to the family of embedded databases. It is the most widely deployed database engine, as it is used by several of the top web browsers, operating systems, mobile phones, and other embedded systems.
