@@ -1,0 +1,39 @@
+#!/usr/bin/python
+import sqlite3 as lite
+from sqlite3 import Error
+import sys 
+
+
+def create_connection(db_file):
+    """ create a database connection to the SQLite database
+        specified by db_file
+    :param db_file: database file
+    :return: Connection object or None
+    """
+    try:
+        conn = lite.connect(db_file)
+        return conn
+
+    except Error as e:
+        print(e)
+        sys.exit(1)
+
+    return None
+
+def Prepare_data(conn):
+    sqlite3_stmt *res;
+
+    with conn: 
+       if (sqlite3_prepare_v2(conn, "SELECT SQLITE_VERSION()", −1, &res,0) != SQLITE_OK)  {
+           print "Failed to fetch data: %s\n"% sqlite3_errmsg(conn)
+        } 
+
+       if (sqlite3_step(res) != SQLITE_ROW)  {
+           print "%s\n"%sqlite3_column_text(res, 0))
+        } 
+        sqlite3_finalize(res);
+ 
+if __name__ == '__main__':
+    conn = create_connection("example.db")
+    Prepare_data(conn)
+    conn.close()
