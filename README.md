@@ -1,4 +1,4 @@
-# examples_SQLITE3_with_Python_C_C-
+# examples_SQLITE3_with_Python_C_and_CPP
 
 Here you will find simples examples of  sqlit3 (SQLITE 3.0) written in Python, C and C++
 
