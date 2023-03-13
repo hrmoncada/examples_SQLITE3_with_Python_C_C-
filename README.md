@@ -12,9 +12,9 @@ Difference between SQLite and sqlite3. SQLite2.8 will deal with data in various 
 
 ## Differences between SQL and SQLite
 
-1. *Structured Query Language (SQL) :* SQL stands for Structured Query Language. SQL can access, created and manage databases. SQL has became standard of American National Standards Institute.
+1. **Structured Query Language (SQL) :** SQL stands for Structured Query Language. SQL can access, created and manage databases. SQL has became standard of American National Standards Institute.
 
-2. *SQLite :* SQLite is software which provides relational database management system. SQLite lightweight in terms of setup, database administration, and required resources. SQLite has features like self-contained, server-less, zero-configuration, etc.
+2. **SQLite :** SQLite is software which provides relational database management system. SQLite lightweight in terms of setup, database administration, and required resources. SQLite has features like self-contained, server-less, zero-configuration, etc.
 
 Differences between SQL and SQLite :
 
