@@ -19,6 +19,7 @@ Difference between SQLite and sqlite3. SQLite2.8 will deal with data in various 
 Differences between SQL and SQLite :
 
 | SQL	 | SQLite | 
+|------------------------------------|--------------------------------|
 | SQL is Structured Query Language used to query Relational Database System. It is written in C language.	| SQLite is an Relational Database Management System which is written in ANSI-C. |
 | SQL is standard which specifies how relational schema is created, data is inserted or updated in relations, transactions are started and stopped, etc.| SQLite is file-based. It is different from other SQL databases because unlike most other SQL databases, SQLite does not have separate server process.|
 | Main components of SQL are Data Definition Language(DDL), Data Manipulation Language(DML), Data Control Language(DCL).	| SQLite supports many features of SQL and has high performance but does not support stored procedures. |
